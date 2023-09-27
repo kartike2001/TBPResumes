@@ -28,25 +28,32 @@ body {
   padding: 0;
 }
 
-
 /* Navigation Bar */
 .navbar {
   background-color: white;
+  font-size: 1em;
 }
 
 .navbar a {
   color: var(--neon-green);
+  padding: 15px;
+  border: 2px solid var(--neon-green);
+  border-radius: 10px;
 }
 
 .navbar a:hover {
   color: var(--neon-blue);
+  border: 2px solid var(--neon-blue); /* Add a border on hover */
+}
+
+.navbar-nav > li {
+  margin-right: 10px;
 }
 
 /* Resume Sections */
 .container {
   padding: 2em;
   background-color: white;
-  border-radius: 10px;
   box-shadow: 0 4px 8px rgb(197, 179, 179);
 }
 
@@ -73,12 +80,23 @@ section h2 {
 }
 
 .card-img {
-  width: 170px;  /* Fixed width */
-  height: 170px;  /* Fixed height */
-  border-radius: 50%;  /* Makes the image circular */
-  object-fit: cover;  /* Ensures the aspect ratio is maintained */
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
+.TBP {
+  width: auto;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+.card a:hover {
+  color: var(--neon-blue);
+}
 
 
 div[id^="major-"] {
@@ -100,4 +118,12 @@ hr {
 
 div[id^="major-"] + div[id^="major-"] {
   margin-top: 4em;
+}
+
+.large-icon{
+  font-size: 1.5em;
+}
+
+.resume-container h5 {
+  text-align: center;
 }

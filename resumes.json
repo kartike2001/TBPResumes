@@ -1,18 +1,22 @@
 {
-  "mechanical": [
+  "computer": [
     {
       "name": "Kartike Chaurasia",
-      "link": "resume_link_here",
-      "graduationYear": "December 2024",
-      "picture": "IMG_2759.JPG"
-    }
-  ],
-  "electrical": [
+      "resumes": "resumes/Kartike Chaurasia.pdf",
+      "github": "https://github.com/kartike2001",
+      "linkedin": "https://www.linkedin.com/in/kartike2001/",
+      "portfolio": "https://www.acsu.buffalo.edu/~kartikec/",
+      "graduationYear": "December 2023",
+      "picture": "images/Kartike Chaurasia.jpg"
+    },
     {
-      "name": "Kaitlyn Morris",
-      "link": "resume_link_here",
-      "graduationYear": "May 2023",
-      "picture": "IMG_2339.JPG"
+      "name": "Matthew Rubino",
+      "resumes": "resumes/Matthew Rubino.pdf",
+      "github": "https://github.com/mattrrubino",
+      "linkedin": "https://www.linkedin.com/in/matthew-rubino-90b4b0235/\n",
+      "portfolio": "",
+      "graduationYear": "December 2023",
+      "picture": "images/Matthew Rubino.jpg"
     }
   ]
 }
