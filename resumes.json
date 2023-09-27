@@ -1,0 +1,16 @@
+{
+  "mechanical": [
+    {
+      "name": "John Doe",
+      "summary": "Experienced in CAD design",
+      "link": "john_doe_resume.pdf"
+    }
+  ],
+  "electrical": [
+    {
+      "name": "Jane Doe",
+      "summary": "Specialized in embedded systems",
+      "link": "jane_doe_resume.pdf"
+    }
+  ]
+}
