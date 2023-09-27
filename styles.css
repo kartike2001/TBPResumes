@@ -5,10 +5,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Hacker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");/* Primary Color Palette */
 :root {
-  --neon-green: #00edf5;
-  --neon-blue: #1cea97;
-  --white: #000000;
-  --grid-color: rgba(0, 237, 245, 0.11); /* Neon Green Grid */
+  --neon-green: #005bbb;
+  --neon-blue: #e56a54;
+  --white: #ffffff;
+  --grid-color: #00a69c; /* Neon Green Grid */
 }
 
 /* Global Styles */
@@ -25,23 +25,23 @@ body {
 
 /* Navigation Bar */
 .navbar {
-  background-color: black;
+  background-color: white;
 }
 
 .navbar a {
-  color: var(--neon-green); /* Changed to neon green */
+  color: var(--neon-green);
 }
 
 .navbar a:hover {
-  color: var(--neon-blue); /* Changed to neon blue */
+  color: var(--neon-blue);
 }
 
 /* Resume Sections */
 .container {
   padding: 2em;
-  background-color: rgb(0, 0, 0);
+  background-color: white;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(197, 179, 179);
 }
 
 section {
@@ -56,8 +56,8 @@ section h2 {
 
 /* Individual Resume Cards */
 .card {
-  background-color: rgb(0, 0, 0);
-  border: 1px solid var(--neon-green);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid var(--neon-green);
   margin-bottom: 1em;
   border-radius: 10px;
 }
@@ -65,7 +65,6 @@ section h2 {
 .card-body {
   color: var(--neon-blue);
 }
-
 
 .card-img {
   width: 170px;  /* Fixed width */
@@ -81,7 +80,7 @@ div[id^="major-"] {
   margin-bottom: 2em;
   padding: 1em;
   border-radius: 10px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 /* Style for the horizontal line */
