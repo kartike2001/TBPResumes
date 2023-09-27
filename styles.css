@@ -1,42 +1,45 @@
 /* Import Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
-
-/* Primary Color Palette */
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hacker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");/* Primary Color Palette */
 :root {
-  --ub-blue: #005bbb;
-  --white: #ffffff;
-  --grid-color: rgba(0, 91, 187, 0.2);
+  --neon-green: #00edf5;
+  --neon-blue: #1cea97;
+  --white: #000000;
+  --grid-color: rgba(0, 237, 245, 0.11); /* Neon Green Grid */
 }
 
 /* Global Styles */
 body {
-  font-family: "Orbitron", sans-serif;
+  font-family: "Hacker", monospace;
   background-color: var(--white);
   background-image: linear-gradient(0deg, transparent 24%, var(--grid-color) 25%, var(--grid-color) 26%, transparent 27%, transparent 74%, var(--grid-color) 75%, var(--grid-color) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, var(--grid-color) 25%, var(--grid-color) 26%, transparent 27%, transparent 74%, var(--grid-color) 75%, var(--grid-color) 76%, transparent 77%, transparent);
   background-size: 50px 50px;
-  color: var(--ub-blue);
+  color: var(--neon-green);
   margin: 0;
   padding: 0;
 }
 
+
 /* Navigation Bar */
 .navbar {
-  background-color: var(--ub-blue);
+  background-color: black;
 }
 
 .navbar a {
-  color: var(--white);
+  color: var(--neon-green); /* Changed to neon green */
 }
 
 .navbar a:hover {
-  color: var(--white);
-  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--neon-blue); /* Changed to neon blue */
 }
 
 /* Resume Sections */
 .container {
   padding: 2em;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgb(0, 0, 0);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -46,58 +49,50 @@ section {
 }
 
 section h2 {
-  color: var(--ub-blue);
-  border-bottom: 2px solid var(--ub-blue);
+  color: var(--neon-green);
+  border-bottom: 2px solid var(--neon-green);
   padding-bottom: 10px;
 }
 
 /* Individual Resume Cards */
 .card {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid var(--ub-blue);
+  background-color: rgb(0, 0, 0);
+  border: 1px solid var(--neon-green);
   margin-bottom: 1em;
   border-radius: 10px;
 }
 
 .card-body {
-  color: var(--ub-blue);
+  color: var(--neon-blue);
 }
 
-.card-title {
-  font-size: 1.2em;
+
+.card-img {
+  width: 170px;  /* Fixed width */
+  height: 170px;  /* Fixed height */
+  border-radius: 50%;  /* Makes the image circular */
+  object-fit: cover;  /* Ensures the aspect ratio is maintained */
 }
 
-.btn {
-  background-color: var(--ub-blue);
-  color: var(--white);
-  border-radius: 5px;
-}
 
-.btn:hover {
-  background-color: rgba(0, 91, 187, 0.8);
-  color: var(--white);
-}
 
 div[id^="major-"] {
   margin-top: 2em;
   margin-bottom: 2em;
   padding: 1em;
-  border: 1px solid var(--ub-blue);
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.8); /* Added background color */
+  background-color: rgb(0, 0, 0);
 }
 
 /* Style for the horizontal line */
 hr {
   border: 0;
   height: 1px;
-  background: var(--ub-blue);
+  background: var(--neon-green);
   margin-top: 2em;
   margin-bottom: 2em;
-  background: var(--solar-strand); /* Changed to Solar Strand */
 }
 
 div[id^="major-"] + div[id^="major-"] {
   margin-top: 4em;
 }
-

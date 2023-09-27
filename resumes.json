@@ -1,56 +1,18 @@
 {
   "mechanical": [
     {
-      "name": "John Doe",
-      "summary": "Experienced in CAD design",
-      "link": "john_doe_resume.pdf"
-    },
-    {
-      "name": "John Doe",
-      "summary": "Experienced in CAD design",
-      "link": "john_doe_resume.pdf"
-    },
-    {
-      "name": "John Doe",
-      "summary": "Experienced in CAD design",
-      "link": "john_doe_resume.pdf"
-    }
-    ,    {
-      "name": "John Doe",
-      "summary": "Experienced in CAD design",
-      "link": "john_doe_resume.pdf"
-    },
-    {
-      "name": "John Doe",
-      "summary": "Experienced in CAD design",
-      "link": "john_doe_resume.pdf"
-    },
-    {
-      "name": "John Doe",
-      "summary": "Experienced in CAD design",
-      "link": "john_doe_resume.pdf"
+      "name": "Kartike Chaurasia",
+      "link": "resume_link_here",
+      "graduationYear": "December 2024",
+      "picture": "IMG_2759.JPG"
     }
   ],
   "electrical": [
     {
-      "name": "Jane Doe",
-      "summary": "Specialized in embedded systems",
-      "link": "jane_doe_resume.pdf"
-    },
-    {
-      "name": "John Doe",
-      "summary": "Experienced in CAD design",
-      "link": "john_doe_resume.pdf"
-    },
-    {
-      "name": "John Doe",
-      "summary": "Experienced in CAD design",
-      "link": "john_doe_resume.pdf"
-    },
-    {
-      "name": "John Doe",
-      "summary": "Experienced in CAD design",
-      "link": "john_doe_resume.pdf"
+      "name": "Kaitlyn Morris",
+      "link": "resume_link_here",
+      "graduationYear": "May 2023",
+      "picture": "IMG_2339.JPG"
     }
   ]
 }
