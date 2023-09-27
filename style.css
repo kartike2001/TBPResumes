@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hacker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/* ... (Your existing CSS) ... */
+
+/* Additional or Modified CSS for Resume Book */
+.project {
+  border: 1px solid rgb(0, 252, 253);
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease-in-out;
+  text-align: center;
+}
+
+.project h5 {
+  color: rgb(0, 252, 253);
+}
+
+.project p {
+  color: #00ff34;
+}
+
+.project a {
+  color: #5aa7ff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #5aa7ff;
+  border-radius: 5px;
+}
+
+.project a:hover {
+  color: #e08b14;
+  border: 1px solid #e08b14;
+}
+
+.project:hover {
+  box-shadow: 0 0 20px rgb(0, 252, 253);
+}
