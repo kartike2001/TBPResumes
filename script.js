@@ -18,7 +18,6 @@ $(document).ready(function() {
           socialIcons += `<a href="${resume.linkedin}" target="_blank"><i class="fab fa-linkedin"></i></a> `;
         }
 
-        // Check if Portfolio link exists
         if (resume.portfolio) {
           socialIcons += `<a href="${resume.portfolio}" target="_blank"><i class="fas fa-briefcase"></i></a>`;
         }

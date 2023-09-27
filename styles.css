@@ -4,11 +4,17 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hacker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");/* Primary Color Palette */
+
+
 :root {
   --neon-green: #005bbb;
   --neon-blue: #e56a54;
   --white: #ffffff;
   --grid-color: #00a69c; /* Neon Green Grid */
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* Global Styles */
