@@ -4,9 +4,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Hacker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
+
+@keyframes cursorBlink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* ... (Your existing CSS) ... */
 
-/* Additional or Modified CSS for Resume Book */
+:root {
+  --bs-dark: #212529;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: "Hacker", monospace;
+  background: black;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+.navbar a {
+  color: rgb(0, 252, 253) !important;
+}
+
+.navbar a:hover {
+  color: #e08b14 !important;
+}
+
+.nav-item {
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.16);
+}
+
+.nav-item.active {
+  background-color: #e08b14;
+  color: black;
+}
+
 .project {
   border: 1px solid rgb(0, 252, 253);
   padding: 1em;
