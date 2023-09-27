@@ -1,96 +1,103 @@
-@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Hacker&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
-
-@keyframes cursorBlink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-/* ... (Your existing CSS) ... */
-
+/* Primary Color Palette */
 :root {
-  --bs-dark: #212529;
+  --ub-blue: #005bbb;
+  --white: #ffffff;
+  --grid-color: rgba(0, 91, 187, 0.2);
 }
 
-html, body {
-  padding: 0;
+/* Global Styles */
+body {
+  font-family: "Orbitron", sans-serif;
+  background-color: var(--white);
+  background-image: linear-gradient(0deg, transparent 24%, var(--grid-color) 25%, var(--grid-color) 26%, transparent 27%, transparent 74%, var(--grid-color) 75%, var(--grid-color) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, var(--grid-color) 25%, var(--grid-color) 26%, transparent 27%, transparent 74%, var(--grid-color) 75%, var(--grid-color) 76%, transparent 77%, transparent);
+  background-size: 50px 50px;
+  color: var(--ub-blue);
   margin: 0;
-  font-family: "Hacker", monospace;
-  background: black;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+  padding: 0;
 }
 
+/* Navigation Bar */
 .navbar {
-  background-color: black !important;
+  background-color: var(--ub-blue);
 }
 
 .navbar a {
-  color: rgb(0, 252, 253) !important;
+  color: var(--white);
 }
 
 .navbar a:hover {
-  color: #e08b14 !important;
+  color: var(--white);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-.nav-item {
-  background-color: black;
+/* Resume Sections */
+.container {
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+section h2 {
+  color: var(--ub-blue);
+  border-bottom: 2px solid var(--ub-blue);
+  padding-bottom: 10px;
+}
+
+/* Individual Resume Cards */
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--ub-blue);
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+
+.card-body {
+  color: var(--ub-blue);
+}
+
+.card-title {
+  font-size: 1.2em;
+}
+
+.btn {
+  background-color: var(--ub-blue);
+  color: var(--white);
   border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
 }
 
-.nav-item:hover {
-  background-color: rgba(255, 255, 255, 0.16);
+.btn:hover {
+  background-color: rgba(0, 91, 187, 0.8);
+  color: var(--white);
 }
 
-.nav-item.active {
-  background-color: #e08b14;
-  color: black;
-}
-
-.project {
-  border: 1px solid rgb(0, 252, 253);
+div[id^="major-"] {
+  margin-top: 2em;
+  margin-bottom: 2em;
   padding: 1em;
-  margin: 1em 0;
-  border-radius: 5px;
-  transition: box-shadow 0.3s ease-in-out;
-  text-align: center;
+  border: 1px solid var(--ub-blue);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Added background color */
 }
 
-.project h5 {
-  color: rgb(0, 252, 253);
+/* Style for the horizontal line */
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--ub-blue);
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background: var(--solar-strand); /* Changed to Solar Strand */
 }
 
-.project p {
-  color: #00ff34;
+div[id^="major-"] + div[id^="major-"] {
+  margin-top: 4em;
 }
 
-.project a {
-  color: #5aa7ff;
-  text-decoration: none;
-  padding: 10px 20px;
-  border: 1px solid #5aa7ff;
-  border-radius: 5px;
-}
-
-.project a:hover {
-  color: #e08b14;
-  border: 1px solid #e08b14;
-}
-
-.project:hover {
-  box-shadow: 0 0 20px rgb(0, 252, 253);
-}
