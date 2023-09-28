@@ -17,6 +17,15 @@ html {
   scroll-behavior: smooth;
 }
 
+[id]:before {
+  content: "";
+  display: block;
+  height: 60px; /* Set height same as navbar */
+  margin-top: -60px; /* Negative margin to pull the block up */
+  visibility: hidden;
+}
+
+
 /* Global Styles */
 body {
   font-family: "Hacker", monospace;
