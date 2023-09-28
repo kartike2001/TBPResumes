@@ -33,7 +33,7 @@ $(document).ready(function() {
                 </div>
               </div>
               <div class="col-md-4 d-flex justify-content-center align-items-center">
-                <h5 class="card-text">Graduation Year: ${resume.graduationYear}</h5>
+                <h5 class="card-text">Graduation: ${resume.graduationYear}</h5>
               </div>
               <div class="col-md-4 d-flex justify-content-center align-items-center">
                 <img src="${resume.picture}" class="card-img" alt="${resume.name}">
