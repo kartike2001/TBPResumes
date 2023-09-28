@@ -20,8 +20,8 @@ html {
 [id]:before {
   content: "";
   display: block;
-  height: 60px; /* Set height same as navbar */
-  margin-top: -60px; /* Negative margin to pull the block up */
+  height: 200px; /* Set height same as navbar */
+  margin-top: -200px; /* Negative margin to pull the block up */
   visibility: hidden;
 }
 

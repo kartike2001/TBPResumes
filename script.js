@@ -47,3 +47,31 @@ $(document).ready(function() {
     }
   });
 });
+document.addEventListener("DOMContentLoaded", function() {
+  // Get all navbar links
+  const navLinks = document.querySelectorAll('.nav-link');
+
+  // Loop through each link
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      // Prevent default behavior
+      e.preventDefault();
+
+      // Get the target element ID from href attribute
+      const targetId = this.getAttribute('href').substring(1);
+
+      // Get the target element
+      const targetElement = document.getElementById(targetId);
+
+      // Calculate the position to scroll to (target position - navbar height)
+      const scrollToPosition = targetElement.offsetTop - 100; // Assuming navbar height is 60px
+
+      // Scroll to the position
+      window.scrollTo({
+        top: scrollToPosition,
+        behavior: 'smooth'
+      });
+    });
+  });
+});
+
