@@ -145,6 +145,7 @@ h3 {
 .nav-link.active,
 .nav-link:hover {
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 .nav-link.active {
