@@ -35,6 +35,60 @@
             "portfolio": "",
             "graduationYear": "December 2024",
             "picture": ""
+        },
+        {
+            "name": "Rupin Raj Kumar Pradeep",
+            "resumes": "resumes/Rupin Raj Kumar Pradeep.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        },
+        {
+            "name": "Scilla Benussi",
+            "resumes": "resumes/Scilla Benussi.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        },
+        {
+            "name": "Chan Jung",
+            "resumes": "resumes/Chan Jung.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "August 2024",
+            "picture": ""
+        },
+        {
+            "name": "Ethan Zemanick",
+            "resumes": "resumes/Ethan Zemanick.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "December 2023",
+            "picture": ""
+        },
+        {
+            "name": "Jake Ryan",
+            "resumes": "resumes/Jake Ryan.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        },
+        {
+            "name": "Jennifer Tsang",
+            "resumes": "resumes/Jennifer Tsang.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
         }
     ],
     "biomedical": [
@@ -91,6 +145,69 @@
             "portfolio": "",
             "graduationYear": "May 2024",
             "picture": ""
+        },
+        {
+            "name": "Adhav Narayanan",
+            "resumes": "resumes/Adhav Narayanan.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2025",
+            "picture": ""
+        },
+        {
+            "name": "Finn Macnamara",
+            "resumes": "resumes/Finn Macnamara.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        },
+        {
+            "name": "Hannah Pham",
+            "resumes": "resumes/Hannah Pham.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        },
+        {
+            "name": "Matthew Kurniawan",
+            "resumes": "resumes/Matthew Kurniawan.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        },
+        {
+            "name": "Michael Crespo",
+            "resumes": "resumes/Michael Crespo.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        },
+        {
+            "name": "Thierry Juang",
+            "resumes": "resumes/Thierry Juang.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        },
+        {
+            "name": "Mary Gannon",
+            "resumes": "resumes/Mary Gannon.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
         }
     ],
     "civil": [
@@ -102,6 +219,24 @@
             "portfolio": "",
             "graduationYear": "May 2024",
             "picture": "images/Daniella Kata.jpg"
+        },
+        {
+            "name": "Quinn Gruppe",
+            "resumes": "resumes/Quinn Gruppe.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        },
+        {
+            "name": "Rachel Williams",
+            "resumes": "resumes/Rachel Williams.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
         }
     ],
     "mechanical": [
@@ -149,6 +284,24 @@
             "portfolio": "https://feramoss.journoportfolio.com/",
             "graduationYear": "May 2024",
             "picture": "images/Fernando Ramos.jpeg"
+        },
+        {
+            "name": "Nathan Kretschmann",
+            "resumes": "resumes/Nathan Kretschmann.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        },
+        {
+            "name": "Michael Ollert",
+            "resumes": "resumes/Michael Ollert.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
         }
     ],
     "industrial": [
@@ -168,7 +321,7 @@
             "linkedin": "www.linkedin.com/in/lauraeschultz",
             "portfolio": "",
             "graduationYear": "May 2024",
-            "picture": "images/Laura Schultz.JPG"
+            "picture": ""
         },
         {
             "name": "Abida Islam",
@@ -227,6 +380,24 @@
             "portfolio": "",
             "graduationYear": "May 2023",
             "picture": "images/Alex Francisco.jpeg"
+        },
+        {
+            "name": "Max Gustin",
+            "resumes": "resumes/Max Gustin.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        },
+        {
+            "name": "Kathleen Kane",
+            "resumes": "resumes/Kathleen Kane.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
         }
     ],
     "chemical": [
@@ -238,6 +409,15 @@
             "portfolio": "",
             "graduationYear": "May 2024",
             "picture": "images/Max Barletta.PNG"
+        },
+        {
+            "name": "Anna Belyablya",
+            "resumes": "resumes/Anna Belyablya.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
         }
     ]
 }
