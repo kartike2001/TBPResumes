@@ -129,6 +129,15 @@
             "picture": "images/Chloe Miller.png"
         },
         {
+            "name": "Unnati Agarwal",
+            "resumes": "resumes/Unnati Agarwal.pdf",
+            "github": "",
+            "linkedin": "https://linkedin.com/in/unnati15",
+            "portfolio": "https://www.unnatiagarwal.com",
+            "graduationYear": "May 2024",
+            "picture": "images/Unnati Agarwal.jpeg"
+        },
+        {
             "name": "Anoop Nilam",
             "resumes": "resumes/Anoop Nilam.pdf",
             "github": "",
@@ -331,15 +340,6 @@
             "portfolio": "",
             "graduationYear": "December 2023",
             "picture": "images/Abida Islam.png"
-        },
-        {
-            "name": "Unnati Agarwal",
-            "resumes": "resumes/Unnati Agarwal.pdf",
-            "github": "",
-            "linkedin": "https://linkedin.com/in/unnati15",
-            "portfolio": "https://www.unnatiagarwal.com",
-            "graduationYear": "May 2024",
-            "picture": "images/Unnati Agarwal.jpeg"
         },
         {
             "name": "Ibukun Adetola",
