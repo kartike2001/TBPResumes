@@ -52,11 +52,15 @@ body {
 
 .navbar a:hover {
   color: var(--neon-blue);
-  border: 2px solid var(--neon-blue); /* Add a border on hover */
+  border: 2px solid var(--neon-blue);
 }
 
 .navbar-nav > li {
   margin-right: 10px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 91, 187, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 /* Resume Sections */
@@ -156,7 +160,7 @@ h3 {
 /* Styling for Potential Inductees */
 .inductees .card {
   border: 2px dashed var(--neon-blue);
-  background-color: rgba(229, 106, 84, 0.1); /* Lighter shade of neon-blue */
+  background-color: rgba(229, 106, 84, 0.1);
 }
 
 .inductees .card h4,
