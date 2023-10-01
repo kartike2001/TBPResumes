@@ -1,0 +1,178 @@
+{
+    "computer": [
+        {
+            "name": "Nadia Pelaez",
+            "resumes": "resumes/Nadia Pelaez.pdf",
+            "github": "",
+            "linkedin": "www.linkedin.com/in/nadiapel",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Nadia Pelaez.jpg"
+        },
+        {
+            "name": "Matthew Haynes",
+            "resumes": "resumes/Matthew Haynes.pdf",
+            "github": "https://github.com/haynesmatt",
+            "linkedin": "linkedin.com/in/matthayn/",
+            "portfolio": "https://matthaynes.super.site/",
+            "graduationYear": "May 2025",
+            "picture": "images/Matthew Haynes.JPEG"
+        }
+    ],
+    "biomedical": [
+        {
+            "name": "Jared Lamson",
+            "resumes": "resumes/Jared Lamson.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/jaredlamson2002/",
+            "portfolio": "",
+            "graduationYear": "May 2025",
+            "picture": "images/Jared Lamson.jpeg"
+        }
+    ],
+    "civil": [
+        {
+            "name": "Jessica Anastasia",
+            "resumes": "resumes/Jessica Anastasia.pdf",
+            "github": "",
+            "linkedin": "http://www.linkedin.com/in/jessica-anastasia",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Jessica Anastasia.jpg"
+        },
+        {
+            "name": "Jesse Orozco",
+            "resumes": "resumes/Jesse Orozco.pdf",
+            "github": "",
+            "linkedin": "www.linkedin.com/in/jesse-orozco",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Jesse Orozco.jpg"
+        }
+    ],
+    "mechanical": [
+        {
+            "name": "Stephanie Yuen",
+            "resumes": "resumes/Stephanie Yuen.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/stephanie-yuen1/",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Stephanie Yuen.jpg"
+        },
+        {
+            "name": "Nicholas Burch",
+            "resumes": "resumes/Nicholas Burch.pdf",
+            "github": "",
+            "linkedin": "www.linkedin.com/in/nicholas-burch6",
+            "portfolio": "",
+            "graduationYear": "May 2025",
+            "picture": "images/Nicholas Burch.jpg"
+        },
+        {
+            "name": "Jackson Edmund Rogers",
+            "resumes": "resumes/Jackson Edmund Rogers.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/jackson-edmund-rogers/",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Jackson Rogers.jpeg"
+        },
+        {
+            "name": "Daniel Sitnik",
+            "resumes": "resumes/Daniel Sitnik.pdf",
+            "github": "",
+            "linkedin": "linkedin.com/in/daniel-sitnik-5a32aa25b",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        },
+        {
+            "name": "Geoffrey Mills",
+            "resumes": "resumes/Geoffrey Mills.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/geoffrey-mills-97b78a283/",
+            "portfolio": "",
+            "graduationYear": "May 2025",
+            "picture": "images/Geoffrey Mills.jpg"
+        },
+        {
+            "name": "Samuel Obi",
+            "resumes": "resumes/Samuel Obi.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/samuel-obi-911689266",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Samuel Obi.jpg"
+        },
+        {
+            "name": "Marc Rivera",
+            "resumes": "resumes/Marc Rivera.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/marcrive/",
+            "portfolio": "https://marcriveranyc.journoportfolio.com/",
+            "graduationYear": "May 2024",
+            "picture": "images/Marc Rivera.png"
+        }
+    ],
+    "industrial": [
+        {
+            "name": "Setareh Kazemi Kheiri",
+            "resumes": "resumes/Setareh Kazemi Kheiri.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/setareh-kazemi/",
+            "portfolio": "",
+            "graduationYear": "May 2025",
+            "picture": "images/Setareh Kazemi Kheiri.jpg"
+        },
+        {
+            "name": "Zahra Vahedi",
+            "resumes": "resumes/Zahra Vahedi.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/zahravahedi",
+            "portfolio": "",
+            "graduationYear": "May 2025",
+            "picture": "images/Zahra Vahedi.jpeg"
+        }
+    ],
+    "electrical": [
+        {
+            "name": "Amanda Newbury",
+            "resumes": "resumes/Amanda Newbury.pdf",
+            "github": "",
+            "linkedin": "www.linkedin.com/in/amanda-newbury",
+            "portfolio": "",
+            "graduationYear": "May 2025",
+            "picture": "images/Amanda Newbury.jpeg"
+        },
+        {
+            "name": "Abu Islam",
+            "resumes": "resumes/Abu Islam.pdf",
+            "github": "",
+            "linkedin": "www.linkedin.com/in/abu-islam-608672197",
+            "portfolio": "",
+            "graduationYear": "May 2025",
+            "picture": "images/Abu Islam.png"
+        }
+    ],
+    "chemical": [
+        {
+            "name": "Teagan Allart",
+            "resumes": "resumes/Amanda Newbury.pdf",
+            "github": "",
+            "linkedin": "www.linkedin.com/in/teaganallart",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Teagan Allart.jpg"
+        },
+        {
+            "name": "JP Alves",
+            "resumes": "resumes/JP Alves.pdf",
+            "github": "",
+            "linkedin": "www.linkedin.com/in/jpdeaa/",
+            "portfolio": "",
+            "graduationYear": "May 2025",
+            "picture": "images/JP Alves.jpg"
+        }
+    ]
+}

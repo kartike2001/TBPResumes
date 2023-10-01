@@ -116,15 +116,6 @@ div[id^="major-"] {
   background-color: rgb(255, 255, 255);
 }
 
-/* Style for the horizontal line */
-hr {
-  border: 0;
-  height: 1px;
-  background: var(--neon-green);
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
 div[id^="major-"] + div[id^="major-"] {
   margin-top: 4em;
 }
@@ -136,3 +127,40 @@ div[id^="major-"] + div[id^="major-"] {
 .resume-container h5 {
   text-align: center;
 }
+
+h2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h3 {
+  color: var(--grid-color);
+  font-weight: bold;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  font-size: 1.2em;
+}
+
+.nav-link.active {
+  color: var(--neon-blue);
+  border: 2px solid var(--neon-blue);
+}
+
+/* Styling for Members */
+.members .card {
+  border: 2px solid var(--neon-green);
+}
+
+/* Styling for Potential Inductees */
+.inductees .card {
+  border: 2px dashed var(--neon-blue);
+  background-color: rgba(229, 106, 84, 0.1); /* Lighter shade of neon-blue */
+}
+
+.inductees .card h4,
+.inductees .card h5 {
+  color: var(--neon-blue);
+}
+

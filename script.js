@@ -1,21 +1,31 @@
 $(document).ready(function() {
-  // Load resume data here, for example from a JSON file
-  $.getJSON("resumes.json", function(data) {
-    // Loop through each major
-    for (let major in data) {
-      // Loop through each resume in that major
-      data[major].forEach(function(resume) {
-        // Initialize social icons
-        let socialIcons = '';
+  // Load member resume data
+  $.getJSON("resumes.json", function(memberData) {
+    populateResumes(memberData, 'members');
 
+    // Load inductee resume data inside the callback for member data
+    $.getJSON("resumesinductee.json", function(inducteeData) {
+      populateResumes(inducteeData, 'inductees');
+    });
+  });
+
+  function populateResumes(data, type) {
+    for (let major in data) {
+      if (data[major].length === 0 && type === 'inductees') {
+        // Remove the "Inductees" heading and container if there are no inductees
+        $(`#major-${major} .${type}`).prev('h4').remove();
+        $(`#major-${major} .${type}`).remove();
+        continue;
+      }
+
+      data[major].forEach(function(resume) {
+        let socialIcons = '';
         if (resume.github) {
           socialIcons += `<a href="${resume.github}" target="_blank" class="large-icon"><i class="fab fa-github"></i></a> `;
         }
-
         if (resume.linkedin) {
           socialIcons += `<a href="${resume.linkedin}" target="_blank" class="large-icon"><i class="fab fa-linkedin"></i></a> `;
         }
-
         if (resume.portfolio) {
           socialIcons += `<a href="${resume.portfolio}" target="_blank" class="large-icon"><i class="fas fa-briefcase"></i></a>`;
         }
@@ -36,17 +46,18 @@ $(document).ready(function() {
                 <h5 class="card-text">Graduation: ${resume.graduationYear}</h5>
               </div>
               <div class="col-md-4 d-flex justify-content-center align-items-center">
-                <img src="${resume.picture}" class="card-img" alt="${resume.name}">
+                <img src="${resume.picture ? resume.picture : 'tbp seal.png'}" class="card-img" alt="${resume.name}">
               </div>
             </div>
             <br>
           </div>
         `;
-        $(`#major-${major} .resume-container`).append(resumeCard);
+        $(`#major-${major} .${type}`).append(resumeCard);
       });
     }
-  });
+  }
 });
+
 document.addEventListener("DOMContentLoaded", function() {
   // Get all navbar links
   const navLinks = document.querySelectorAll('.nav-link');
@@ -72,6 +83,24 @@ document.addEventListener("DOMContentLoaded", function() {
         behavior: 'smooth'
       });
     });
+  });
+});
+
+// Add 'active' class to navbar based on section
+window.addEventListener('scroll', function() {
+  let fromTop = window.scrollY + 200; // 200 is the offset
+
+  document.querySelectorAll('.nav-link').forEach(link => {
+    let section = document.querySelector(link.hash);
+
+    if (
+        section.offsetTop <= fromTop &&
+        section.offsetTop + section.offsetHeight > fromTop
+    ) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
   });
 });
 

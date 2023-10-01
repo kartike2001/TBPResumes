@@ -1,167 +1,243 @@
 {
-  "computer": [
-    {
-      "name": "Kartike Chaurasia",
-      "resumes": "resumes/Kartike Chaurasia.pdf",
-      "github": "https://github.com/kartike2001",
-      "linkedin": "https://www.linkedin.com/in/kartike2001/",
-      "portfolio": "https://www.acsu.buffalo.edu/~kartikec/",
-      "graduationYear": "December 2023",
-      "picture": "images/Kartike Chaurasia.jpg"
-    },
-    {
-      "name": "Matthew Rubino",
-      "resumes": "resumes/Matthew Rubino.pdf",
-      "github": "https://github.com/mattrrubino",
-      "linkedin": "https://www.linkedin.com/in/matthew-rubino-90b4b0235/",
-      "portfolio": "",
-      "graduationYear": "December 2023",
-      "picture": "images/Matthew Rubino.jpg"
-    },
-    {
-      "name": "Rachel Li",
-      "resumes": "resumes/Rachel Li.pdf",
-      "github": "",
-      "linkedin": "https://www.linkedin.com/in/rachelyxli/",
-      "portfolio": "",
-      "graduationYear": "December 2023",
-      "picture": "images/Rachel Li.jpg"
-    }
-  ],
-  "biomedical": [
-    {
-      "name": "Maxine Dupuis",
-      "resumes": "resumes/Maxine Dupuis.pdf",
-      "github": "",
-      "linkedin": "https://www.linkedin.com/in/maxine-dupuis/",
-      "portfolio": "",
-      "graduationYear": "May 2024",
-      "picture": "images/Maxine Dupuis.jpg"
-    },
-    {
-      "name": "Anna Walsh",
-      "resumes": "resumes/Anna Walsh.pdf",
-      "github": "",
-      "linkedin": "https://www.linkedin.com/in/anna-e-walsh/",
-      "portfolio": "",
-      "graduationYear": "May 2024",
-      "picture": "images/Anna Walsh.jpg"
-    },
-    {
-      "name": "Jared Lamson",
-      "resumes": "resumes/Jared Lamson.pdf",
-      "github": "",
-      "linkedin": "https://www.linkedin.com/in/jaredlamson2002/",
-      "portfolio": "",
-      "graduationYear": "May 2025",
-      "picture": "images/Jared Lamson.jpg"
-    }
-  ],
-  "civil": [
-    {
-      "name": "Daniella Kata",
-      "resumes": "resumes/Daniella Kata.pdf",
-      "github": "",
-      "linkedin": "https://www.linkedin.com/in/daniella-kata",
-      "portfolio": "",
-      "graduationYear": "May 2024",
-      "picture": "images/Daniella Kata.jpg"
-    },
-    {
-      "name": "Jessica Anastasia",
-      "resumes": "resumes/Jessica Anastasia.pdf",
-      "github": "",
-      "linkedin": "http://www.linkedin.com/in/jessica-anastasia",
-      "portfolio": "",
-      "graduationYear": "May 2024",
-      "picture": "images/Jessica Anastasia.jpg"
-    },
-    {
-      "name": "Jesse Orozco",
-      "resumes": "resumes/Jesse Orozco.pdf",
-      "github": "",
-      "linkedin": "www.linkedin.com/in/jesse-orozco",
-      "portfolio": "",
-      "graduationYear": "May 2024",
-      "picture": "images/Jesse Orozco.jpg"
-    }
-  ],
-  "mechanical" : [
-    {
-      "name": "Juan Montenegro",
-      "resumes": "resumes/Juan Montenegro.pdf",
-      "github": "",
-      "linkedin": "https://www.linkedin.com/in/juanmontenegro-b68087232/",
-      "portfolio": "",
-      "graduationYear": "May 2024",
-      "picture": "images/Juan Montenegro.jpg"
-    },
-    {
-      "name": "Arthur Tanchoco",
-      "resumes": "resumes/Arthur Tanchoco.pdf",
-      "github": "",
-      "linkedin": "https://www.linkedin.com/in/arthur-tanchoco-jr-078697202/",
-      "portfolio": "",
-      "graduationYear": "May 2024",
-      "picture": "images/Arthur Tanchoco.jpg"
-    },
-    {
-      "name": "Allyson Williams",
-      "resumes": "resumes/Allyson Williams.pdf",
-      "github": "",
-      "linkedin": "https://www.linkedin.com/in/allyson-williams-14a0a1229",
-      "portfolio": "",
-      "graduationYear": "May 2024",
-      "picture": "images/Allyson Williams.jpg"
-    },
-    {
-      "name": "Stephanie Yuen",
-      "resumes": "resumes/Stephanie Yuen.pdf",
-      "github": "",
-      "linkedin": "https://www.linkedin.com/in/stephanie-yuen1/",
-      "portfolio": "",
-      "graduationYear": "May 2024",
-      "picture": "images/Stephanie Yuen.jpg"
-    },
-    {
-      "name": "Nicholas Burch",
-      "resumes": "resumes/Nicholas Burch.pdf",
-      "github": "",
-      "linkedin": "www.linkedin.com/in/nicholas-burch6",
-      "portfolio": "",
-      "graduationYear": "May 2025",
-      "picture": "images/Nicholas Burch.jpg"
-    },
-    {
-      "name": "Jackson Edmund Rogers",
-      "resumes": "resumes/Jackson Edmund Rogers.pdf",
-      "github": "",
-      "linkedin": "https://www.linkedin.com/in/jackson-edmund-rogers/",
-      "portfolio": "",
-      "graduationYear": "May 2024",
-      "picture": "images/Jackson Edmund Rogers.jpg"
-    }
-  ],
-  "industrial": [
-    {
-      "name": "Lolina Schietekat Sedas",
-      "resumes": "resumes/Lolina Schietekat Sedas.pdf",
-      "github": "",
-      "linkedin": "www.linkedin.com/in/lolinasc",
-      "portfolio": "",
-      "graduationYear": "May 2024",
-      "picture": "images/Lolina Schietekat Sedas.jpg"
-    }
-  ],
-  "robotics": [
-    {
-      "name": "Misha Nelyubov",
-      "resumes": "resumes/Misha Nelyubov.pdf",
-      "github": "https://github.com/M-Nelyubov",
-      "linkedin": "https://www.linkedin.com/in/mnelyubov/",
-      "portfolio": "",
-      "graduationYear": "May 2024",
-      "picture": "images/Misha Nelyubov.jpg"
-    }
-  ]
+    "computer": [
+        {
+            "name": "Kartike Chaurasia",
+            "resumes": "resumes/Kartike Chaurasia.pdf",
+            "github": "https://github.com/kartike2001",
+            "linkedin": "https://www.linkedin.com/in/kartike2001/",
+            "portfolio": "https://www.acsu.buffalo.edu/~kartikec/",
+            "graduationYear": "December 2023",
+            "picture": "images/Kartike Chaurasia.jpg"
+        },
+        {
+            "name": "Matthew Rubino",
+            "resumes": "resumes/Matthew Rubino.pdf",
+            "github": "https://github.com/mattrrubino",
+            "linkedin": "https://www.linkedin.com/in/matthew-rubino-90b4b0235/",
+            "portfolio": "",
+            "graduationYear": "December 2023",
+            "picture": "images/Matthew Rubino.jpg"
+        },
+        {
+            "name": "Rachel Li",
+            "resumes": "resumes/Rachel Li.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/rachelyxli/",
+            "portfolio": "",
+            "graduationYear": "December 2023",
+            "picture": "images/Rachel Li.JPG"
+        },
+        {
+            "name": "Jennifer Tsang",
+            "resumes": "resumes/Jennifer Tsang.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "December 2024",
+            "picture": ""
+        }
+    ],
+    "biomedical": [
+        {
+            "name": "Maxine Dupuis",
+            "resumes": "resumes/Maxine Dupuis.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/maxine-dupuis/",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Maxine Dupuis.png"
+        },
+        {
+            "name": "Anna Walsh",
+            "resumes": "resumes/Anna Walsh.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/anna-e-walsh/",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Anna Walsh.jpg"
+        },
+        {
+            "name": "Anya Wansha",
+            "resumes": "resumes/Anya Wansha.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/anyawansha/",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Anya Wansha.png"
+        },
+        {
+            "name": "Chloe Miller",
+            "resumes": "resumes/Chloe Miller.pdf",
+            "github": "",
+            "linkedin": "http://www.linkedin.com/in/chloe-miller-b63481222",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Chloe Miller.png"
+        },
+        {
+            "name": "Anoop Nilam",
+            "resumes": "resumes/Anoop Nilam.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        },
+        {
+            "name": "Lauren Shaw",
+            "resumes": "resumes/Lauren Shaw.pdf",
+            "github": "",
+            "linkedin": "",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": ""
+        }
+    ],
+    "civil": [
+        {
+            "name": "Daniella Kata",
+            "resumes": "resumes/Daniella Kata.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/daniella-kata",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Daniella Kata.jpg"
+        }
+    ],
+    "mechanical": [
+        {
+            "name": "Juan Montenegro Espinosa",
+            "resumes": "resumes/Juan Montenegro.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/juanmontenegro-b68087232/",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Juan Montenegro Espinosa.JPG"
+        },
+        {
+            "name": "Arthur Tanchoco",
+            "resumes": "resumes/Arthur Tanchoco.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/arthur-tanchoco-jr-078697202/",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Arthur Tanchoco.jpeg"
+        },
+        {
+            "name": "Allyson Williams",
+            "resumes": "resumes/Allyson Williams.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/allyson-williams-14a0a1229",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Allyson Williams.png"
+        },
+        {
+            "name": "Shardul Saptarshi",
+            "resumes": "resumes/Shardul Saptarshi.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/shardulsaptarshi/",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Shardul Saptarshi.jpg"
+        },
+        {
+            "name": "Fernando Ramos Siguenza",
+            "resumes": "resumes/Fernando Ramos.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/feramoss",
+            "portfolio": "https://feramoss.journoportfolio.com/",
+            "graduationYear": "May 2024",
+            "picture": "images/Fernando Ramos.jpeg"
+        }
+    ],
+    "industrial": [
+        {
+            "name": "Lolina Schietekat Sedas",
+            "resumes": "resumes/Lolina Schietekat Sedas.pdf",
+            "github": "",
+            "linkedin": "www.linkedin.com/in/lolinasc",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Lolina Schietekat Sedas.jpeg"
+        },
+        {
+            "name": "Laura Schultz",
+            "resumes": "resumes/Laura Schultz.pdf",
+            "github": "",
+            "linkedin": "www.linkedin.com/in/lauraeschultz",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Laura Schultz.JPG"
+        },
+        {
+            "name": "Abida Islam",
+            "resumes": "resumes/Abida Islam.pdf",
+            "github": "",
+            "linkedin": "http://linkedin.com/in/abida-isl",
+            "portfolio": "",
+            "graduationYear": "December 2023",
+            "picture": "images/Abida Islam.png"
+        },
+        {
+            "name": "Unnati Agarwal",
+            "resumes": "resumes/Unnati Agarwal.pdf",
+            "github": "",
+            "linkedin": "https://linkedin.com/in/unnati15",
+            "portfolio": "https://www.unnatiagarwal.com",
+            "graduationYear": "May 2024",
+            "picture": "images/Unnati Agarwal.jpeg"
+        },
+        {
+            "name": "Ibukun Adetola",
+            "resumes": "resumes/Ibukun Adetola.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/ibukun-adetola-ba0317269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Ibukun Adetola.jpg"
+        }
+    ],
+    "robotics": [
+        {
+            "name": "Misha Nelyubov",
+            "resumes": "resumes/Misha Nelyubov.pdf",
+            "github": "https://github.com/M-Nelyubov",
+            "linkedin": "https://www.linkedin.com/in/mnelyubov/",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Misha Nelyubov.png"
+        }
+    ],
+    "electrical": [
+        {
+            "name": "Marcus Francisco",
+            "resumes": "resumes/Marcus Francisco.pdf",
+            "github": "https://github.com/MarcAura",
+            "linkedin": "http://www.linkedin.com/in/marcus-francisco",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Marcus Francisco.JPG"
+        },
+        {
+            "name": "Alexander Francisco",
+            "resumes": "resumes/Alex Francisco.pdf",
+            "github": "",
+            "linkedin": "http://www.linkedin.com/in/alex-james-francisco",
+            "portfolio": "",
+            "graduationYear": "May 2023",
+            "picture": "images/Alex Francisco.jpeg"
+        }
+    ],
+    "chemical": [
+        {
+            "name": "Max Barletta",
+            "resumes": "resumes/Max Barletta.pdf",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/max-barletta/",
+            "portfolio": "",
+            "graduationYear": "May 2024",
+            "picture": "images/Max Barletta.PNG"
+        }
+    ]
 }
